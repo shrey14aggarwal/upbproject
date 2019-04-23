@@ -1,0 +1,51 @@
+             Path p1 = Paths.get("https://upb.de/site/drupal");
+	         Path p2 = Paths.get("https://upb.de/site/drupal/a/b");
+	         Path p3 = Paths.get("https://upb.de/site/drupal/new");
+	         Path p4 = Paths.get("https://upb.de/site/drupal/a/c");
+	         Path p5 = Paths.get("https://upb.de/site/drupal/d");
+	         Path p6 = Paths.get("https://upb.de/site/drupal/f");
+	         
+	         HashMap<Path,ArrayList<String>> table=new HashMap();
+	         
+	         ArrayList list= new ArrayList<String>();
+	         list.add("drupal");
+	         list.add("C#");
+	         list.add("elixir");
+	         list.add("python");
+	         
+	         ArrayList list1= new ArrayList<String>();
+	         list1.add("ruby");
+	         list1.add("python");
+	         list1.add("ruby on rails");
+	         list1.add("c++");
+	         list1.add("php5");
+	         
+	         ArrayList list2= new ArrayList<String>();
+	         list2.add("C#");
+	         list2.add("drupal");
+	         list2.add("CSS");
+	         
+	         ArrayList list3= new ArrayList<String>();
+	         list3.add("elixir");
+	         list3.add("html");
+	         list3.add("java");
+	         list3.add("bootstrap");
+	         list3.add("drupal");
+	         
+	         ArrayList list4= new ArrayList<String>();
+	         list4.add("c");
+	         list4.add("c++");
+	         list4.add("php5");
+	         list4.add("ruby");
+	         list4.add("joomla")
+	         
+	         ArrayList list5= new ArrayList<String>();
+	         list5.add("typo3");
+	         
+	         
+	         table.put( p1,list);
+	         table.put( p2,list1);
+	         table.put( p3,list2);
+	         table.put( p4,list3);
+	         table.put( p5,list4);
+	         table.put( p6,list5);
